@@ -1,0 +1,32 @@
+{
+  "name": "pdet-backend-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkeeit/pdet-backend-apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turkeeit/pdet-backend-apis/issues"
+  },
+  "homepage": "https://github.com/turkeeit/pdet-backend-apis#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.4.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.24.4",
+    "nodemon": "^3.1.14"
+  }
+}
